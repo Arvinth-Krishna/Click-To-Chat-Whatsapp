@@ -12,7 +12,6 @@ echo.
 
 
 
-
 SET contactname1=
 SET contactname2=
 SET contactname3=
@@ -31,10 +30,10 @@ SET num6=
 SET num7=
 SET num8=
 
+
+
+
 SET url=whatsapp://send?phone=91
-
-
-
 echo.
 
 echo Enter 1 to  Open Phonebook
