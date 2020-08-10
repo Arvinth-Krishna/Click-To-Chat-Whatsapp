@@ -1,7 +1,7 @@
 # Click-To-Chat-Whatsapp
-**This is an app used to send Whatapp message to Non-Contacts.**
+**This is an app used to send Whatapp message to Not Saved-Contacts.**
 
-This batchfile best works with **Desktop Whatsapp**.
+This batchfile works best with **Desktop Whatsapp**.
 
 ![image](https://user-images.githubusercontent.com/49812701/83987749-f45d5a00-a95e-11ea-903d-eeea5d588dcb.png)
 
