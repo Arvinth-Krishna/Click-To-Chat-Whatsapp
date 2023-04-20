@@ -1,15 +1,17 @@
+# Created by GAK (Arvinth Krishna G) - 2020
+# https://github.com/Arvinth-Krishna
+# https://www.youtube.com/@gakventure
+
 :cu
 cls
 @echo off
 echo.
 echo ****************************************
-echo                 WhatSend
+echo                 WhatSend by GAK
 echo ****************************************
-
+echo.
 echo This is an app used to send Whatapp message to Non-Contacts.
 echo.
-echo.
-
 
 
 SET contactname1=
@@ -44,17 +46,17 @@ echo.
 echo Choose from above Number:
 set /p down=
 echo.
-if %down%== p goto fuck1
-if %down%== ' goto fuck1
-if %down%== 1 goto fuck1
-if %down%== 2 goto fuck2
-if %down%== 3 goto fuck3
-if %down%== 4 goto fuck4  
+if %down%== p goto go1
+if %down%== ' goto go1
+if %down%== 1 goto go1
+if %down%== 2 goto go2
+if %down%== 3 goto go3
+if %down%== 4 goto go4  
 
 # [: PHONEBOOK CODE :]
 
 
-:fuck1
+:go1
 cls
 echo.
 echo.
@@ -141,14 +143,14 @@ exit
 
 # [: Open Whatsapp:]
 
-:fuck2
+:go2
 set name="Arvinth Krishna G"
 start \Users\%name%\AppData\Local\WhatsApp\WhatsApp.exe
 exit
 
 # [: Unsaved Contacts:]
 
-:fuck3
+:go3
 echo.
 echo.
 cls
@@ -163,10 +165,3 @@ SET c=%url%
 SET "ws=%url%%mobileNumber%"
 start %ws%
 exit
-
-
-
-
-
-
-
